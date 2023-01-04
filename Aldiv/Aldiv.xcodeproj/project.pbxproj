@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB15A044296594DE00D03915 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB15A043296594DE00D03915 /* GalleryView.swift */; };
 		CBABBAED296527810025ACC5 /* AldivApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBAEC296527810025ACC5 /* AldivApp.swift */; };
 		CBABBAEF296527810025ACC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBAEE296527810025ACC5 /* ContentView.swift */; };
 		CBABBAF1296527820025ACC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBABBAF0296527820025ACC5 /* Assets.xcassets */; };
@@ -17,6 +18,11 @@
 		CBABBB17296527A30025ACC5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBB16296527A30025ACC5 /* Extensions.swift */; };
 		CBABBB19296527EE0025ACC5 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBB18296527EE0025ACC5 /* ContactView.swift */; };
 		CBABBB1B2965280D0025ACC5 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBB1A2965280D0025ACC5 /* FooterView.swift */; };
+		CBABBB1D29652CC10025ACC5 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBB1C29652CC10025ACC5 /* MenuView.swift */; };
+		CBABBB1F29652D1C0025ACC5 /* AProposView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBB1E29652D1C0025ACC5 /* AProposView.swift */; };
+		CBABBB2129652D2D0025ACC5 /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBB2029652D2D0025ACC5 /* CoverView.swift */; };
+		CBABBB2329652D340025ACC5 /* Publications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBB2229652D340025ACC5 /* Publications.swift */; };
+		CBABBB2529652D530025ACC5 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBB2429652D530025ACC5 /* Content.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB15A043296594DE00D03915 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		CBABBAE9296527810025ACC5 /* Aldiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aldiv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBABBAEC296527810025ACC5 /* AldivApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldivApp.swift; sourceTree = "<group>"; };
 		CBABBAEE296527810025ACC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +57,11 @@
 		CBABBB16296527A30025ACC5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CBABBB18296527EE0025ACC5 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		CBABBB1A2965280D0025ACC5 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		CBABBB1C29652CC10025ACC5 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		CBABBB1E29652D1C0025ACC5 /* AProposView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AProposView.swift; sourceTree = "<group>"; };
+		CBABBB2029652D2D0025ACC5 /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+		CBABBB2229652D340025ACC5 /* Publications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publications.swift; sourceTree = "<group>"; };
+		CBABBB2429652D530025ACC5 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,7 @@
 		CBABBAE0296527810025ACC5 = {
 			isa = PBXGroup;
 			children = (
+				CB15A043296594DE00D03915 /* GalleryView.swift */,
 				CBABBAEB296527810025ACC5 /* Aldiv */,
 				CBABBAFC296527830025ACC5 /* AldivTests */,
 				CBABBB06296527830025ACC5 /* AldivUITests */,
@@ -101,7 +114,12 @@
 			isa = PBXGroup;
 			children = (
 				CBABBAEC296527810025ACC5 /* AldivApp.swift */,
+				CBABBB2429652D530025ACC5 /* Content.swift */,
 				CBABBAEE296527810025ACC5 /* ContentView.swift */,
+				CBABBB1C29652CC10025ACC5 /* MenuView.swift */,
+				CBABBB2029652D2D0025ACC5 /* CoverView.swift */,
+				CBABBB1E29652D1C0025ACC5 /* AProposView.swift */,
+				CBABBB2229652D340025ACC5 /* Publications.swift */,
 				CBABBB18296527EE0025ACC5 /* ContactView.swift */,
 				CBABBB1A2965280D0025ACC5 /* FooterView.swift */,
 				CBABBB16296527A30025ACC5 /* Extensions.swift */,
@@ -267,9 +285,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBABBAEF296527810025ACC5 /* ContentView.swift in Sources */,
+				CBABBB1D29652CC10025ACC5 /* MenuView.swift in Sources */,
 				CBABBB17296527A30025ACC5 /* Extensions.swift in Sources */,
+				CBABBB2529652D530025ACC5 /* Content.swift in Sources */,
 				CBABBAED296527810025ACC5 /* AldivApp.swift in Sources */,
+				CBABBB2129652D2D0025ACC5 /* CoverView.swift in Sources */,
 				CBABBB1B2965280D0025ACC5 /* FooterView.swift in Sources */,
+				CBABBB1F29652D1C0025ACC5 /* AProposView.swift in Sources */,
+				CB15A044296594DE00D03915 /* GalleryView.swift in Sources */,
+				CBABBB2329652D340025ACC5 /* Publications.swift in Sources */,
 				CBABBB19296527EE0025ACC5 /* ContactView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

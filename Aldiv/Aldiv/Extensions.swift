@@ -13,6 +13,15 @@ extension View {
             .previewDevice(.init(stringLiteral: "iPad Pro (12.9-inch) (6th generation)"))
             .previewInterfaceOrientation(.landscapeLeft)
     }
+
+    func applyHLine(_ width: CGFloat, color: Color = .red) -> some View {
+        HStack(spacing: 5) {
+            self
+        Rectangle()
+                .fill(color)
+                .frame(width: width, height: 2)
+        }
+    }
 }
 
 extension Color {

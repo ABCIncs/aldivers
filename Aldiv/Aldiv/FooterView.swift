@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct FooterView: View {
-    let socials = ["twitter", "facebook", "instagram", "linkedin"]
     var body: some View {
         VStack {
             HStack(alignment: .top, spacing: 50) {

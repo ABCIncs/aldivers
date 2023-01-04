@@ -6,14 +6,14 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct ContactView: View {
     var body: some View {
         VStack(alignment: .leading) {
 
-
-            Text("Contact---")
-                .font(.largeTitle.weight(.black))
+            Text("Contact")
+                .font(.largeTitle.weight(.semibold))
 
 
             VStack {
@@ -28,8 +28,8 @@ struct ContactView: View {
 //            mapView
 
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
         .padding(20)
+        .frame(maxWidth: width/1.5)
         .background(Color(.secondarySystemBackground).ignoresSafeArea())
 
     }
@@ -48,7 +48,7 @@ extension ContactView {
 
                 Image(systemName: "mappin.circle.fill")
                     .resizable()
-                    .foregroundColor(.teal)
+                    .foregroundColor(blue)
                     .frame(width: 60, height: 60)
 
                 Text("Nos adresses")
@@ -72,7 +72,7 @@ extension ContactView {
         VStack(spacing: 10) {
             Image(systemName: "envelope.circle.fill")
                 .resizable()
-                .foregroundColor(.teal)
+                .foregroundColor(blue)
                 .frame(width: 50, height: 50)
 
             Text("Envoyez-Nous un mail")
@@ -94,7 +94,7 @@ extension ContactView {
         VStack(spacing: 10) {
             Image(systemName: "phone.circle.fill")
                 .resizable()
-                .foregroundColor(.teal)
+                .foregroundColor(blue)
                 .frame(width: 50, height: 50)
 
             Text("Appelez-Nous")
@@ -116,7 +116,7 @@ extension ContactView {
 
     var mapView: some View {
 
-        Map.init(mapRect: .constant(MKMapRect.init(x: 0, y: 0, width: 300, height: 300)))
+        Map(mapRect: .constant(MKMapRect.init(x: 0, y: 0, width: 300, height: 300)))
     }
 
     var infoView: some View {
