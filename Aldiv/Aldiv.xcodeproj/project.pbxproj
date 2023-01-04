@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBABBAED296527810025ACC5 /* AldivApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBAEC296527810025ACC5 /* AldivApp.swift */; };
+		CBABBAEF296527810025ACC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBAEE296527810025ACC5 /* ContentView.swift */; };
+		CBABBAF1296527820025ACC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBABBAF0296527820025ACC5 /* Assets.xcassets */; };
+		CBABBAF4296527820025ACC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBABBAF3296527820025ACC5 /* Preview Assets.xcassets */; };
+		CBABBAFE296527830025ACC5 /* AldivTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBAFD296527830025ACC5 /* AldivTests.swift */; };
+		CBABBB08296527830025ACC5 /* AldivUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBB07296527830025ACC5 /* AldivUITests.swift */; };
+		CBABBB0A296527830025ACC5 /* AldivUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBB09296527830025ACC5 /* AldivUITestsLaunchTests.swift */; };
+		CBABBB17296527A30025ACC5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBB16296527A30025ACC5 /* Extensions.swift */; };
+		CBABBB19296527EE0025ACC5 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBB18296527EE0025ACC5 /* ContactView.swift */; };
+		CBABBB1B2965280D0025ACC5 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABBB1A2965280D0025ACC5 /* FooterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBABBAFA296527830025ACC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBABBAE1296527810025ACC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBABBAE8296527810025ACC5;
+			remoteInfo = Aldiv;
+		};
+		CBABBB04296527830025ACC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBABBAE1296527810025ACC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBABBAE8296527810025ACC5;
+			remoteInfo = Aldiv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBABBAE9296527810025ACC5 /* Aldiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aldiv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBABBAEC296527810025ACC5 /* AldivApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldivApp.swift; sourceTree = "<group>"; };
+		CBABBAEE296527810025ACC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBABBAF0296527820025ACC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBABBAF3296527820025ACC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBABBAF9296527830025ACC5 /* AldivTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AldivTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBABBAFD296527830025ACC5 /* AldivTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldivTests.swift; sourceTree = "<group>"; };
+		CBABBB03296527830025ACC5 /* AldivUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AldivUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBABBB07296527830025ACC5 /* AldivUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldivUITests.swift; sourceTree = "<group>"; };
+		CBABBB09296527830025ACC5 /* AldivUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AldivUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBABBB16296527A30025ACC5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CBABBB18296527EE0025ACC5 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		CBABBB1A2965280D0025ACC5 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBABBAE6296527810025ACC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBABBAF6296527830025ACC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBABBB00296527830025ACC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBABBAE0296527810025ACC5 = {
+			isa = PBXGroup;
+			children = (
+				CBABBAEB296527810025ACC5 /* Aldiv */,
+				CBABBAFC296527830025ACC5 /* AldivTests */,
+				CBABBB06296527830025ACC5 /* AldivUITests */,
+				CBABBAEA296527810025ACC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBABBAEA296527810025ACC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBABBAE9296527810025ACC5 /* Aldiv.app */,
+				CBABBAF9296527830025ACC5 /* AldivTests.xctest */,
+				CBABBB03296527830025ACC5 /* AldivUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBABBAEB296527810025ACC5 /* Aldiv */ = {
+			isa = PBXGroup;
+			children = (
+				CBABBAEC296527810025ACC5 /* AldivApp.swift */,
+				CBABBAEE296527810025ACC5 /* ContentView.swift */,
+				CBABBB18296527EE0025ACC5 /* ContactView.swift */,
+				CBABBB1A2965280D0025ACC5 /* FooterView.swift */,
+				CBABBB16296527A30025ACC5 /* Extensions.swift */,
+				CBABBAF0296527820025ACC5 /* Assets.xcassets */,
+				CBABBAF2296527820025ACC5 /* Preview Content */,
+			);
+			path = Aldiv;
+			sourceTree = "<group>";
+		};
+		CBABBAF2296527820025ACC5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CBABBAF3296527820025ACC5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBABBAFC296527830025ACC5 /* AldivTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBABBAFD296527830025ACC5 /* AldivTests.swift */,
+			);
+			path = AldivTests;
+			sourceTree = "<group>";
+		};
+		CBABBB06296527830025ACC5 /* AldivUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBABBB07296527830025ACC5 /* AldivUITests.swift */,
+				CBABBB09296527830025ACC5 /* AldivUITestsLaunchTests.swift */,
+			);
+			path = AldivUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBABBAE8296527810025ACC5 /* Aldiv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBABBB0D296527830025ACC5 /* Build configuration list for PBXNativeTarget "Aldiv" */;
+			buildPhases = (
+				CBABBAE5296527810025ACC5 /* Sources */,
+				CBABBAE6296527810025ACC5 /* Frameworks */,
+				CBABBAE7296527810025ACC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aldiv;
+			productName = Aldiv;
+			productReference = CBABBAE9296527810025ACC5 /* Aldiv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBABBAF8296527830025ACC5 /* AldivTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBABBB10296527830025ACC5 /* Build configuration list for PBXNativeTarget "AldivTests" */;
+			buildPhases = (
+				CBABBAF5296527830025ACC5 /* Sources */,
+				CBABBAF6296527830025ACC5 /* Frameworks */,
+				CBABBAF7296527830025ACC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBABBAFB296527830025ACC5 /* PBXTargetDependency */,
+			);
+			name = AldivTests;
+			productName = AldivTests;
+			productReference = CBABBAF9296527830025ACC5 /* AldivTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBABBB02296527830025ACC5 /* AldivUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBABBB13296527830025ACC5 /* Build configuration list for PBXNativeTarget "AldivUITests" */;
+			buildPhases = (
+				CBABBAFF296527830025ACC5 /* Sources */,
+				CBABBB00296527830025ACC5 /* Frameworks */,
+				CBABBB01296527830025ACC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBABBB05296527830025ACC5 /* PBXTargetDependency */,
+			);
+			name = AldivUITests;
+			productName = AldivUITests;
+			productReference = CBABBB03296527830025ACC5 /* AldivUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBABBAE1296527810025ACC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CBABBAE8296527810025ACC5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CBABBAF8296527830025ACC5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CBABBAE8296527810025ACC5;
+					};
+					CBABBB02296527830025ACC5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CBABBAE8296527810025ACC5;
+					};
+				};
+			};
+			buildConfigurationList = CBABBAE4296527810025ACC5 /* Build configuration list for PBXProject "Aldiv" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBABBAE0296527810025ACC5;
+			productRefGroup = CBABBAEA296527810025ACC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBABBAE8296527810025ACC5 /* Aldiv */,
+				CBABBAF8296527830025ACC5 /* AldivTests */,
+				CBABBB02296527830025ACC5 /* AldivUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBABBAE7296527810025ACC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBABBAF4296527820025ACC5 /* Preview Assets.xcassets in Resources */,
+				CBABBAF1296527820025ACC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBABBAF7296527830025ACC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBABBB01296527830025ACC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBABBAE5296527810025ACC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBABBAEF296527810025ACC5 /* ContentView.swift in Sources */,
+				CBABBB17296527A30025ACC5 /* Extensions.swift in Sources */,
+				CBABBAED296527810025ACC5 /* AldivApp.swift in Sources */,
+				CBABBB1B2965280D0025ACC5 /* FooterView.swift in Sources */,
+				CBABBB19296527EE0025ACC5 /* ContactView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBABBAF5296527830025ACC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBABBAFE296527830025ACC5 /* AldivTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBABBAFF296527830025ACC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBABBB08296527830025ACC5 /* AldivUITests.swift in Sources */,
+				CBABBB0A296527830025ACC5 /* AldivUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBABBAFB296527830025ACC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBABBAE8296527810025ACC5 /* Aldiv */;
+			targetProxy = CBABBAFA296527830025ACC5 /* PBXContainerItemProxy */;
+		};
+		CBABBB05296527830025ACC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBABBAE8296527810025ACC5 /* Aldiv */;
+			targetProxy = CBABBB04296527830025ACC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CBABBB0B296527830025ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBABBB0C296527830025ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBABBB0E296527830025ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aldiv/Preview Content\"";
+				DEVELOPMENT_TEAM = 6V9B6LUW22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.incs.cedricbahirwe.Aldiv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBABBB0F296527830025ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aldiv/Preview Content\"";
+				DEVELOPMENT_TEAM = 6V9B6LUW22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.incs.cedricbahirwe.Aldiv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBABBB11296527830025ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V9B6LUW22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.incs.cedricbahirwe.AldivTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aldiv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aldiv";
+			};
+			name = Debug;
+		};
+		CBABBB12296527830025ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V9B6LUW22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.incs.cedricbahirwe.AldivTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aldiv.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aldiv";
+			};
+			name = Release;
+		};
+		CBABBB14296527830025ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V9B6LUW22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.incs.cedricbahirwe.AldivUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aldiv;
+			};
+			name = Debug;
+		};
+		CBABBB15296527830025ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6V9B6LUW22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.incs.cedricbahirwe.AldivUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aldiv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBABBAE4296527810025ACC5 /* Build configuration list for PBXProject "Aldiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBABBB0B296527830025ACC5 /* Debug */,
+				CBABBB0C296527830025ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBABBB0D296527830025ACC5 /* Build configuration list for PBXNativeTarget "Aldiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBABBB0E296527830025ACC5 /* Debug */,
+				CBABBB0F296527830025ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBABBB10296527830025ACC5 /* Build configuration list for PBXNativeTarget "AldivTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBABBB11296527830025ACC5 /* Debug */,
+				CBABBB12296527830025ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBABBB13296527830025ACC5 /* Build configuration list for PBXNativeTarget "AldivUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBABBB14296527830025ACC5 /* Debug */,
+				CBABBB15296527830025ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBABBAE1296527810025ACC5 /* Project object */;
+}
